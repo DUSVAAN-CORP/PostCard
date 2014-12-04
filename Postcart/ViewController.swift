@@ -30,6 +30,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func SendButtonPress(sender: UIButton) {
+        // code evaluate  when  we the press button
+        // adding  comments here
         menssageLabel.hidden=false
         menssageLabel.text = enterMessageTF.text
         menssageLabel.textColor=UIColor.blueColor()
