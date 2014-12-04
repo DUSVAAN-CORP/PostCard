@@ -103,6 +103,15 @@
                                     <rect key="frame" x="174" y="128" width="144" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmL-69-PfX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="173" width="150" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="Ngd-tt-h9u"/>
                                 <exclude reference="plR-tr-VFf"/>
                                 <exclude reference="JBj-oN-KYy"/>
+                                <exclude reference="NmL-69-PfX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="Ngd-tt-h9u"/>
                                 <include reference="plR-tr-VFf"/>
                                 <include reference="JBj-oN-KYy"/>
+                                <include reference="NmL-69-PfX"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTF" destination="LW1-qG-DE5" id="Qaa-aU-Gkn"/>
                         <outlet property="enterNameTF" destination="jVJ-3G-Wpm" id="Qsx-0P-b4T"/>
                         <outlet property="menssageLabel" destination="plR-tr-VFf" id="Pda-Xq-Rw8"/>
+                        <outlet property="nameLabel" destination="NmL-69-PfX" id="S5H-A7-rWO"/>
                         <outlet property="view" destination="8bC-Xf-vdC" id="XHd-nm-Hb0"/>
                     </connections>
                 </viewController>
