@@ -13,6 +13,9 @@
 		CB81131F1A2EB47400ED4456 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB81131E1A2EB47400ED4456 /* Images.xcassets */; };
 		CB8113221A2EB47400ED4456 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8113201A2EB47400ED4456 /* LaunchScreen.xib */; };
 		CB81132E1A2EB47400ED4456 /* PostcartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB81132D1A2EB47400ED4456 /* PostcartTests.swift */; };
+		CB8113381A2EBA3200ED4456 /* foto.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CB8113371A2EBA3200ED4456 /* foto.JPG */; };
+		CB81133A1A2EBEDE00ED4456 /* mail2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8113391A2EBEDE00ED4456 /* mail2.png */; };
+		CB81133C1A2EC00100ED4456 /* img_216.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB81133B1A2EC00100ED4456 /* img_216.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		CB8113271A2EB47400ED4456 /* PostcartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB81132C1A2EB47400ED4456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB81132D1A2EB47400ED4456 /* PostcartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcartTests.swift; sourceTree = "<group>"; };
+		CB8113371A2EBA3200ED4456 /* foto.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto.JPG; sourceTree = "<group>"; };
+		CB8113391A2EBEDE00ED4456 /* mail2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail2.png; sourceTree = "<group>"; };
+		CB81133B1A2EC00100ED4456 /* img_216.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_216.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		CB8113151A2EB47400ED4456 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB81133B1A2EC00100ED4456 /* img_216.jpg */,
+				CB8113391A2EBEDE00ED4456 /* mail2.png */,
+				CB8113371A2EBA3200ED4456 /* foto.JPG */,
 				CB8113161A2EB47400ED4456 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +204,9 @@
 				CB81131D1A2EB47400ED4456 /* Main.storyboard in Resources */,
 				CB8113221A2EB47400ED4456 /* LaunchScreen.xib in Resources */,
 				CB81131F1A2EB47400ED4456 /* Images.xcassets in Resources */,
+				CB81133C1A2EC00100ED4456 /* img_216.jpg in Resources */,
+				CB8113381A2EBA3200ED4456 /* foto.JPG in Resources */,
+				CB81133A1A2EBEDE00ED4456 /* mail2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
